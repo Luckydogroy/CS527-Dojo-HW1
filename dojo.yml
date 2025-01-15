@@ -13,29 +13,48 @@ modules:
 - id: program-misuse
   challenges:
   - id: level-6
+    name: level6
+    description: Lets you directly read the flag!
 
 - id: reverse-engineering
   challenges:
   - id: level-1-0
+    name: level1.0
+    description: Reverse engineer this challenge to find the correct license key.
+
   - id: level-1-1
+    name: level1.1
+    description: Reverse engineer this challenge to find the correct license key.
 
 - id: memory-errors
   challenges:
   - id: level-1-0
+    name: level1.0
+    description: Overflow a buffer on the stack to set the right conditions to obtain the flag!
 
 - id: race-conditions
   challenges:
   - id: level-1-1
+    name: level1.1
+    description: Exploit a basic race condition to get the flag.
 
 - id: access-control
   challenges:
   - id: level-3
+    name: level3
+    description: Flag owned by you with different permissions
+
   - id: level-4
+    name: level4
+    description: How does SETUID work?
 
 - id: commands
   challenges:
   - id: "filesystem-quest"
     name: "An Epic Filesystem Quest"
+
+  - id: "ln-s"
+    name: "linking files"
 
 - id: processes
   challenges:
