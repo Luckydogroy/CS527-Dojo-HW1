@@ -34,17 +34,17 @@ modules:
 
 - id: processes
   challenges:
-  - id: ps
+  - id: "ps"
   name: Listing Processes
-  - id: kill
+  - id: "kill"
   name: Killing Processes
-  -id: exit-codes
+  -id: "exit-codes"
   name: Process Exit Codes
 
 - id: piping
   challenges:
-  - id: pipe-grep
-  name: Grepping live output
+  - id: "pipe-grep"
+  name: "Grepping live output"
 
 - id: access-control
   challenges:
