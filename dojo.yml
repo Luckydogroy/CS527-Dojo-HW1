@@ -1,26 +1,52 @@
-id: cs426dojo
+id: cs527dojo
 
-name: CS426-DOJO
+name: CS527-Dojo-HW1
 
 type: homework
 
 description:
-    This is a homework DOJO for Purdue University course CS426 "Computer Security"
+    This is the homework 1 DOJO for Purdue University course CS527 "Software Security"
 
 
 
 modules:
-- id: web-security
+- id: program-misuse
   challenges:
-  - id: sqli-pin
-    name: SQLi 1
-  - id: level-4
-    name: SQLi 2
-  - id: level-1
-    name: Path Traversal 1
-  - id: xss-stored-html
-    name: XSS 1
-  - id: xss-stored-alert
-    name: XSS 2
-  - id: level-11
-    name: CSRF 1
+  - id: level-6
+
+- id: reverse-engineering
+  challenges:
+  -id: level-1-0
+  -id: level-1-1
+
+- id: memory-errors
+  challenges:
+  -id: level-1-0
+
+- id: race-conditions
+  challenges:
+  -id: level-1-1
+
+- id: commands
+  challenges:
+  -id: "filesystem-quest"
+  name: "An Epic Filesystem Quest"
+
+- id: processes
+  challenges:
+  - id: "ps"
+  name: Listing Processes
+  - id: "kill"
+  name: Killing Processes
+  - id: "exit-codes"
+  name: Process Exit Codes
+
+- id: piping
+  challenges:
+  - id: "pipe-grep"
+  name: "Grepping live output"
+
+- id: access-control
+  challenges:
+  -id: level-3
+  -id: level-4
