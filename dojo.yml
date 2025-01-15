@@ -30,23 +30,23 @@ modules:
 - id: commands
   challenges:
   - id: "filesystem-quest"
-  name: "An Epic Filesystem Quest"
+    name: "An Epic Filesystem Quest"
 
 - id: processes
   challenges:
   - id: "ps"
-  name: Listing Processes
+    name: Listing Processes
 
   - id: "kill"
-  name: Killing Processes
+    name: Killing Processes
   
   -id: "exit-codes"
-  name: Process Exit Codes
+    name: Process Exit Codes
 
 - id: piping
   challenges:
   - id: "pipe-grep"
-  name: "Grepping live output"
+    name: "Grepping live output"
 
 - id: access-control
   challenges:
