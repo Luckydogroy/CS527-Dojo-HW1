@@ -10,9 +10,6 @@ description:
 
 
 modules:
-- id: level-4
-  name: level4
-  description: How does SETUID work?
 
 - id: commands
   challenges:
@@ -43,6 +40,11 @@ modules:
   - id: level-3
     name: level3
     description: Flag owned by you with different permissions
+
+  - id: level-4
+    name: level4
+    description: How does SETUID work?
+
 
 - id: program-misuse
   challenges:
